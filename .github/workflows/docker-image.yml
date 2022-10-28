@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    name: Test on node  ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
+    name: Test on Node
     runs-on: ubuntu-latest
     steps:
       -
