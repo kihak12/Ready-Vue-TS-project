@@ -1,7 +1,7 @@
 # develop stage
 FROM node:alpine as develop-stage
 WORKDIR /app
-COPY . /app
+COPY ./ /app
 
 # build stage
 FROM develop-stage as build-stage
