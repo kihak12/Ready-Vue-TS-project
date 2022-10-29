@@ -11,4 +11,4 @@ RUN npm run build
 FROM nginx:alpine as production-stage
 COPY ./ ./app
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+CMD npm run serve
