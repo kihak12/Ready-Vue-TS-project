@@ -32,39 +32,32 @@ npm run lint
 
 ### DockerFile
 ```
-  FROM node:lts-alpine
-
-  # install simple http server for serving static content
-  RUN npm install -g http-server
-
-  # make the 'app' folder the current working directory
+  # develop stage
+  FROM node:alpine as develop-stage
   WORKDIR /app
+  COPY ./ /app
 
-  # copy both 'package.json' and 'package-lock.json' (if available)
-  COPY package*.json ./
-
-  # install project dependencies
+  # build stage
+  FROM develop-stage as build-stage
   RUN npm install
-
-  # copy project files and folders to the current working directory (i.e. 'app' folder)
-  COPY . .
-
-  # build app for production with minification
   RUN npm run build
 
-  EXPOSE 8080
-  CMD [ "http-server", "dist" ]
+  # production stage
+  FROM nginx:alpine as production-stage
+  COPY ./ ./app
+  EXPOSE 80
+  CMD npm run serve
 ```
 
 
 ### Build container
 ```
-docker build -t vuejs-cookbook/dockerize-vuejs-app .
+ sudo docker build . --file Dockerfile --tag my-image-name
 ```
 
 ### Run container
 ```
-docker run -it -p 8080:80 --rm --name dockerize-vuejs-app-1 vuejs-cookbook/dockerize-vuejs-app
+docker run -it -p 8080:80 --rm --name my-image-name-1 my-image-name
 ```
 
 ### Customize configuration
