@@ -32,27 +32,27 @@ npm run lint
 
 ### DockerFile
 ```
-  # develop stage
-  FROM node:alpine as develop-stage
-  WORKDIR /app
-  COPY ./ /app
+# develop stage
+FROM node:alpine as develop-stage
+WORKDIR /app
+COPY ./ /app
 
-  # build stage
-  FROM develop-stage as build-stage
-  RUN npm install
-  RUN npm run build
+# build stage
+FROM develop-stage as build-stage
+RUN npm install
+RUN npm run build
 
-  # production stage
-  FROM nginx:alpine as production-stage
-  COPY ./ ./app
-  EXPOSE 80
-  CMD npm run serve
+# production stage
+FROM nginx:alpine as production-stage
+COPY ./ ./app
+EXPOSE 80
+CMD npm run serve
 ```
 
 
 ### Build container
 ```
- sudo docker build . --file Dockerfile --tag my-image-name
+sudo docker build . --file Dockerfile --tag my-image-name
 ```
 
 ### Run container
