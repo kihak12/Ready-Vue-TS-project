@@ -32,32 +32,35 @@ npm run lint
 
 ### DockerFile
 ```
-# develop stage
-FROM node:alpine as develop-stage
-WORKDIR /app
-COPY ./ /app
-
 # build stage
-FROM develop-stage as build-stage
+FROM node:lts-alpine as build-stage
+WORKDIR /app
+COPY package*.json ./
 RUN npm install
+COPY . .
 RUN npm run build
 
 # production stage
-FROM nginx:alpine as production-stage
-COPY ./ ./app
+FROM nginx:stable-alpine as production-stage
+COPY --from=build-stage /app/dist /usr/share/nginx/html
 EXPOSE 80
-CMD npm run serve
+CMD ["nginx", "-g", "daemon off;"]
 ```
 
 
 ### Build container
 ```
-sudo docker build . --file Dockerfile --tag my-image-name
+docker build -t docker-vuets-nginx .
 ```
 
 ### Run container
 ```
-docker run -it -p 8080:80 --rm --name my-image-name-1 my-image-name
+docker run -it -p 8080:80 -d --name vuets-nginx docker-vuets-nginx
+```
+
+### Stop container
+```
+docker stop vuets-nginx
 ```
 
 ### Customize configuration
