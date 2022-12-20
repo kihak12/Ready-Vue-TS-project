@@ -30,6 +30,10 @@ npm run test:e2e
 npm run lint
 ```
 
+# Docker Config
+Config for Vue with TypeScript App.
+In these examples the container is called : ```vuets-nginx```
+
 ### DockerFile
 ```
 # build stage
@@ -47,20 +51,29 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
-
 ### Build container
 ```
 docker build -t docker-vuets-nginx .
 ```
 
-### Run container
+### Create and run new container
 ```
 docker run -it -p 8080:80 -d --name vuets-nginx docker-vuets-nginx
+```
+
+### Run existing container
+```
+docker start vuets-nginx
 ```
 
 ### Stop container
 ```
 docker stop vuets-nginx
+```
+
+### Delete All container (paused)
+```
+docker container prune
 ```
 
 ### Customize configuration
