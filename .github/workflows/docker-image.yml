@@ -1,4 +1,4 @@
-name: Docker Image CI with ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
+name: Docker Image CI
 
 on:
   push:
