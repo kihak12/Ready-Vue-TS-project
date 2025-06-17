@@ -1,0 +1,374 @@
+{
+  "language-modification": "Les traductions ont été réalisées à l'aide des outils de Google Translate. Si vous constatez des erreurs ou des incohérences, n'hésitez pas à nous en faire part.",
+  "country": {
+    "en": "English",
+    "fr": "Français",
+    "it": "Italian",
+    "de": "Deutsch",
+    "es": "Español",
+    "ru": "Русский"
+  },
+  "platform": {
+    "steam": "Steam",
+    "epic-games": "Epic Games",
+    "ubisoft": "Ubisoft Connect",
+    "rockstar-games": "Rockstar Games",
+    "ea": "EA",
+    "microsoft-store": "Microsoft Store"
+  },
+  "licence-status": {
+    "success": "Succès, Redirection...",
+    "not-activated": "Cette licence n'est pas encore active",
+    "invalid": "Licence invalide",
+    "expired": "Cette licence est arrivé à expiration",
+    "already-used": "Cette licence à déjà été utilisé",
+    "banned": "Cette licence à été bannie"
+  },
+  "header": {
+    "shop": "Boutique",
+    "my-games": "Mes jeux",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "join-discord": "Rejoindre le Discord"
+  },
+  "shop": {
+    "title": "Achetez vos jeux au meilleur prix",
+    "description": "Notre sélection comprend plus de 160 jeux à prix réduits, avec un acc\u00e8s illimit\u00e9 \u00e0 nos comptes hors ligne. Vous pourrez \u00e9galement profiter des derni\u00e8res nouveaut\u00e9s d\u00e8s leur lancement.",
+    "activate-key": "Activer ma clé"
+  },
+  "shop-game-card": {
+    "platform": "Compte {platform} hors ligne"
+  },
+  "licence-activation": {
+    "licence-duration": "Cette licence est valide {days} jours après son activation",
+    "number-games": "Cette licence donne accès à {nbGames} jeux | Cette licence donne accès à {nbGames} jeu | Cette licence donne accès à {nbGames} jeux",
+    "activate-my-licence": "Activer ma licence",
+    "activate-licence": "Activer la licence",
+    "input-licence-to-access": "Saisissez votre licence d'activation pour accéder à vos jeux",
+    "licence-key": "Clé de licence",
+    "would-like-activate-licence-key": "Souhaitez vous activer cette licence ?",
+    "no-licence": "Vous n'en avez pas ?",
+    "buy-in-store": "Achetez un jeu dans la",
+    "store": "boutique",
+    "to-get-one": "pour en obtenir une",
+    "activate": "Activer",
+    "cancel": "Annuler"
+  },
+  "my-games": {
+    "input-another-licence": "Saisir une autre licence",
+    "manage-subscription": "Gérer mon abonnement",
+    "licence-details": "Détails de la Licence",
+    "licence-important-informations": "Informations importantes sur votre licence",
+    "key": "Clée :",
+    "activation": "Activation :",
+    "expiration": "Expiration :",
+    "game-list": {
+      "game-library": "Ma Bibliothèque de Jeux",
+      "no-game-found": "Aucun jeu trouvé",
+      "no-game-found-with-filters": "Aucun jeu ne correspond à vos critères de recherche. Essayez d'ajuster vos filtres ou de rechercher un autre titre.",
+      "reset-filters": "Réinitialiser les filtres",
+      "search-game": "Rechercher un jeu...",
+      "login": "Se connecter",
+      "game-login": {
+        "your-game": "Votre jeu",
+        "account-platform": "Compte {platform}",
+        "account-details-informations": "Voici les détails de votre compte {platform} pour {gameName}. Veuillez les garder confidentiels.",
+        "platform": "Plateforme",
+        "email": "Email",
+        "pseudo": "Nom d'utilisateur",
+        "password": "Mot de passe",
+        "copied": "Copié",
+        "2fa-code": "Code de double authentification",
+        "additional-information": "Informations additionnelles",
+        "no-additional-information": "Aucune information additionnelle disponible."
+      }
+    }
+  },
+  "cart": {
+    "title": "Panier",
+    "your-cart": "Votre panier",
+    "product": "Produit",
+    "price": "Prix",
+    "empty": "Votre panier est vide",
+    "add-product-to-cart-to-begin": "Ajoutez des articles pour commencer vos achats !",
+    "empty-message": "Il semblerait que vous n'ayez pas encore ajouté de jeux à votre panier. Découvrez notre catalogue pour trouver votre prochain jeu préféré !",
+    "go-to-shop": "Retour à la boutique",
+    "licence": {
+      "enter-your-licence": "Saisissez votre clé de licence",
+      "verify": "Vérifier",
+      "cant-apply": "Cette licence est invalide ou ne peut pas être appliquée",
+      "licence-existing": "Clé de licence existante",
+      "licence-existing-message": "Si vous possédez déjà une clé de licence, vous pouvez l'entrer ici pour ajouter ces jeux à votre licence existante.",
+      "games-applied-to-existing-licence": "Les jeux de votre panier seront appliqués à la licence",
+      "games-not-applied-if-already-in-licence": "Note : Les jeux déjà présents sur votre licence ne seront pas ajoutés à nouveau."
+    },
+    "cart-item": {
+      "disabled-by-owning": "Cette licence possède déjà ce jeu",
+      "disabled-by-out-of-stock": "Ce jeu n'est actuellement pas disponible"
+    },
+    "order-summary": {
+      "title": "Résumé de la commande",
+      "subtotal": "Sous-total",
+      "discount": "Réduction multi-jeux",
+      "discount-message": "Économisez 10% dès l'achat de plusieurs jeux",
+      "total": "Total"
+    },
+    "checkout": "Commander"
+  },
+  "checkout": {
+    "go-to-cart": "Retour au panier",
+    "go-to-home": "Retourner à la page d'accueil",
+    "keep-error": "Si le problème persiste :",
+    "contact-support": "Contacter le support",
+    "keep-link": "Vous pourrez revenir sur cette page ultérieurement si nécessaire en sauvegardant l'URL",
+    "failed": {
+      "title": "Échec de la commande",
+      "message": "Nous n'avons pas pu traiter votre commande, aucun prélèvement n'a été éffectué. Veuillez vérifier vos informations et réessayer"
+    },
+    "success": {
+      "title": "Commande Confirmée",
+      "message": "Merci pour votre achat. Voici les détails de votre commande :",
+      "mail-sent": "Un e-mail de confirmation a été envoyé à {mail}",
+      "order-number": "Numéro de commande :",
+      "licence-key": "Clé de licence:",
+      "keep-safe": "A conserver précieusement",
+      "order-type": "Type de commande :",
+      "new-licence": "Nouvelle licence",
+      "add-games-to-existing-licence": "Ajout de jeux à une licence existante",
+      "subscription": "Abonnement",
+      "billing-period": "Période de facturation:",
+      "month": "Mensuelle:",
+      "year": "Annuelle:",
+      "activate-licence": "Activer la licence",
+      "products": "Produits: {count} jeux | Produits: {count} jeu | Produits: {count} jeux"
+    },
+    "prepare": {
+      "title": "Préparation de votre commande",
+      "message": "Nous vous redirigeons vers la page de paiement...",
+      "title-wait": "Veuillez patienter...",
+      "message-wait": "Nous vous redirigeons vers la page de gestion de votre abonnement..."
+    },
+    "error": {
+      "title": "Commande introuvable",
+      "message": "Nous n'avons pas pu trouver la commande que vous recherchez. Cela peut être dû à l'une des raisons suivantes:",
+      "wrong-order": "Le numéro de commande est incorrect",
+      "order-canceled": "La commande a été annulée",
+      "old-order": "La commande est trop ancienne et n'est plus dans notre système",
+      "contact": "Si vous pensez qu'il s'agit d'une erreur, n'hésitez pas à nous contacter."
+    }
+  },
+  "not-found": {
+    "title": "Oups ! La page que vous recherchez n'est pas ici.",
+    "message": "Il se peut que l'adresse soit erronée ou que la page ait été déplacée.",
+    "go-to-home": "Retourner à la page d'accueil"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "name": "Nom",
+    "your-name": "Votre nom",
+    "email": "Email",
+    "email-copied": "Email copié",
+    "licence-key": "Clé de licence",
+    "your-licence-key": "Votre clé de licence si vous en possédez une",
+    "message": "Message",
+    "your-message": "Votre message",
+    "submit": "Envoyer",
+    "missing-fields": "Veuillez remplir tous les champs obligatoires",
+    "recaptcha-failed": "La vérification reRAPTCHA a échoué",
+    "mail-sended": "Votre message a été envoyé, nous vous répondrons dans les plus brefs délais",
+    "mail-send-error": "Une erreur s'est produite, veuillez réessayer plus tard",
+    "our-coordonnees": "Nos coordonnées",
+    "support-availability": "Disponibilité du support",
+    "working-hours": "Lundi - Dimanche : 9h00 - 23h00",
+    "discord-support": "Assistance sur Discord :<br /> Généralement plus rapide, disponibilité variable",
+    "discord-title": "Communauté Discord",
+    "discord-message": "Rejoignez notre communauté active sur Discord pour discuter, partager et obtenir une assistance plus rapide !",
+    "discord-link": "Rejoindre le Discord",
+    "discord-description": "Notre serveur Discord offre une assistance plus rapide que par email. N'hésitez pas à nous y rejoindre pour toute question ou demande d'aide !"
+  },
+  "game-details": {
+    "buy-now": "Achat Immédiat",
+    "buy": "Acheter",
+    "in-cart": "Dans le panier",
+    "add-to-cart": "Ajouter au panier",
+    "secure-payments": "Paiement sécurisé avec <strong>Stripe</strong> ou <strong>PayPal</strong>",
+    "account-platform": "Compte {platform}",
+    "no-regional-restrictions": "Aucune restriction régionale",
+    "shared-account": "Compte partagé",
+    "online-features-disabled": "Fonctionnalités en ligne non disponibles",
+    "cloud-gaming-disabled": "Cloud gaming non disponible",
+    "denuvo-limitation": "Limitation Denuvo",
+    "denuvo-limitation-description-1": "Ce jeu utilise la protection <strong>Denuvo</strong> qui limite le nombre d'activations à 5 nouveaux appareils par jour.",
+    "denuvo-limitation-description-2": "L'accès immédiat au jeu n'est pas garanti. Un temps d'attente de 24 à 48 heures est possible",
+    "product-details": "Détails du produit",
+    "activation": "Activation",
+    "game-description": "Description du jeu",
+    "required-configuration": "Configuration requise",
+    "need-help-title": "Besoin d'aide ? Rejoignez notre serveur Discord !",
+    "need-help-description": "Si vous avez des questions ou rencontrez des problèmes, notre équipe est disponible pour vous aider sur notre serveur Discord. Cliquez sur le bouton ci-dessous pour rejoindre notre communauté.",
+    "join-discord": "Rejoindre le serveur Discord"
+  },
+  "game-details-details": {
+    "error-media-loading": "Une erreur s'est produite lors de la récupération des images du jeu, veuillez réessayer plus tard.",
+    "product-description": "Description du produit",
+    "important-information": "Informations importantes",
+    "immediate-access": "Accès immédiat",
+    "immediate-access-description": "Vous recevrez les identifiants d'accès au compte immédiatement après avoir finalisé votre achat. Aucun délai d'attente.",
+    "self-activation": "Activation autonome",
+    "self-activation-description": "Vous pouvez activer le compte à tout moment, 24h/24 et 7j/7, sans nécessiter d'intervention de notre part.",
+    "secure-download": "Téléchargement sécurisé",
+    "secure-download-description": "Téléchargez le jeu directement depuis notre compte {platform}, sans recourir à des torrents ou des sites tiers non sécurisés.",
+    "years-warranty": "Garantie 2 ans",
+    "years-warranty-description": "Garantie d'accès de 2 ans. En cas de problème d'accès ou de connexion, nous nous engageons à résoudre le problème ou à vous fournir un compte de remplacement gratuitement.",
+    "updates-included": "Mises à jour incluses",
+    "updates-included-description": "Profitez des dernières mises à jour du jeu disponibles sur {platform}.",
+    "secure-payments": "Paiements sécurisés",
+    "secure-payments-description": "Nous proposons des méthodes de paiement sécurisées via Stripe et Paypal, garantissant une transaction protégée.",
+    "account-offline": "Compte {platform} hors ligne",
+    "account-offline-description": "Ce produit vous donne accès à un compte {platform} en mode hors ligne. Il est conçu pour jouer exclusivement en mode solo, sans accès aux fonctionnalités en ligne.",
+    "no-activation-key": "Pas de clé d'activation",
+    "no-activation-key-description": "Il ne s'agit pas d'une clé de jeu, mais d'un compte partagé. Vous n'achetez pas une licence de jeu individuelle.",
+    "account-not-transferable": "Compte non transférable",
+    "account-not-transferable-description": "Ce compte est partagé et ne peut pas être lié ou transféré à votre compte {platform} personnel.",
+    "cloud-gaming-incompatible": "Incompatibilité avec les services de cloud gaming",
+    "cloud-gaming-incompatible-description": "Il est impossible de jouer à ce jeu via des services de cloud gaming tels que PlayKey, Geforce Now, Google Stadia, Loudplay, Drova, etc.",
+    "modifications-not-allowed": "Modifications interdites",
+    "modifications-not-allowed-description": "Il est strictement interdit de modifier les informations du compte (adresse e-mail, mot de passe, etc.). Toute tentative de modification peut entraîner la désactivation de votre accès.",
+    "shared-account": "Compte partagé",
+    "shared-account-description": "Ce compte est partagé avec d'autres utilisateurs. Vous ne devez pas tenter d'en prendre le contrôle ni d'effectuer des changements."
+  },
+  "game-details-instructions": {
+    "receive-activation-key": "Réception de la clé d'activation",
+    "receive-activation-key-description": "Une fois votre achat effectué, vous recevrez une clé d'activation.",
+    "activate-key": "Activation de la clé",
+    "activate-key-description": "Vous pouvez ensuite activer la clé d'activation sur notre site web pour accéder au jeu que vous avez acheté.",
+    "retrieve-connection-data": "Récupération des informations de connexion",
+    "retrieve-connection-data-description": "Sélectionnez le jeu auquel vous voulez jouer et récupérez le nom d'utilisateur et le mot de passe associés au compte.",
+    "install-launcher": "Installation du lanceur {platform}",
+    "install-launcher-description": "Téléchargez le lanceur lié à la platforme {platform} (s'il n'est pas installé).",
+    "login-to-account": "Connexion au compte {platform}",
+    "login-to-account-description": "Connectez-vous au compte en utilisant les informations d'identification fournies.",
+    "download-game": "Téléchargement du jeu",
+    "download-game-description": "Téléchargez le jeu sur votre ordinateur.",
+    "first-launch-online": "Premier lancement en ligne",
+    "first-launch-online-description": "Lancez le jeu une première fois en mode en ligne.",
+    "pass-to-offline": "Passage en mode hors ligne",
+    "pass-to-offline-description": "Fermez le jeu, passez en mode hors ligne.",
+    "play-offline": "Jeu en mode hors ligne",
+    "play-offline-description": "Vous pouvez désormais jouer au jeu en mode hors ligne."
+  },
+  "game-list": {
+    "title": "Ou achetez vos jeux individuellement",
+    "description": "Choisissez et achetez les jeux que vous souhaitez.",
+    "error": "Une erreur est survenu lors de la récupération de la liste des jeux, merci de réessayer plus tard.",
+    "search-game": "Rechercher...",
+    "game-card": {
+      "buy": "Acheter"
+    }
+  },
+  "game-pack": {
+    "title": "Accédez à tout notre catalogue",
+    "description": "Optez pour un accès complet à notre catalogue de jeux et jouez aux nouveaux titres dès leur sortie",
+    "denuvo-message": "(Hors jeux Denuvo - Ajouté quelques semaines plus tard)",
+    "licence-month": "Licence mensuel",
+    "licence-month-description": "Accédez à tout notre catalogue de jeux sur un cycle de renouvelement chaque mois.",
+    "per-month": "/ mois",
+    "get-month-subscription": "Obtenir l'abonnement mensuel",
+    "licence-year": "Licence annuel",
+    "licence-year-description": "Accédez à tout notre catalogue de jeux sur un cycle de renouvelement chaque année.",
+    "per-year": "/ an",
+    "get-year-subscription": "Obtenir l'abonnement annuel"
+  },
+  "subscription-details": {
+    "title": "Description de l'abonnement",
+    "description-1": "Accédez à notre catalogue complet de plus de 200 jeux PC en accès offline. Des dernières sorties aux grands classiques, découvrez une collection variée mise à jour régulièrement.",
+    "description-2": "Profitez de nouveaux jeux ajoutés chaque mois et jouez en illimité tant que votre abonnement est actif.",
+    "advantages-included": "Avantages inclus",
+    "immediate-access": "Accès immédiat",
+    "immediate-access-description": "Vous recevrez la licence d'accès à l'abonnement immédiatement après avoir finalisé votre achat. Aucun délai d'attente.",
+    "frequent-additions": "Ajouts fréquents",
+    "frequent-additions-description": "Durant la période de votre abonnement vous aurez accès à tous les nouveaux jeux ajoutés.",
+    "self-activation": "Activation autonome",
+    "self-activation-description": "Vous pouvez activer le compte à tout moment, 24h/24 et 7j/7, sans nécessiter d'intervention de notre part.",
+    "secure-download": "Téléchargement sécurisé",
+    "secure-download-description": "Téléchargez le jeu directement depuis notre compte Steam, sans recourir à des torrents ou des sites tiers non sécurisés.",
+    "warranty": "Garantie",
+    "warranty-description": "Garantie d'accès pendant toute la période de votre abonnement. En cas de problème d'accès ou de connexion à un jeux, nous vous fournirons un compte de remplacement gratuitement.",
+    "updates-included": "Mises à jour incluses",
+    "updates-included-description": "Profitez des dernières mises à jour du jeu disponibles.",
+    "secure-payments": "Paiements sécurisés",
+    "secure-payments-description": "Nous proposons des méthodes de paiement sécurisées via Stripe et Paypal, garantissant une transaction protégée.",
+    "subscription-games": {
+      "title": "Jeux inclus dans l'abonnement ({count})"
+    }
+  },
+  "subscription-plan": {
+    "choose-plan": "Choisissez votre plan",
+    "plan-monthly": "Abonnement Mensuel",
+    "plan-yearly": "Abonnement Annuel (Économisez 2 mois)",
+    "select-monthly": "Abonnement Mensuel",
+    "select-yearly": "Abonnement Annuel",
+    "per-month": "/ mois",
+    "per-year": "/ an",
+    "access-to-many-games": "Accès à plus de 200 jeux",
+    "frequent-additions": "Nouveaux jeux ajoutés régulièrement",
+    "unlimited-downloads": "Téléchargements illimités",
+    "two-months-discount": "2 mois offerts",
+    "subscribe-now": "S'abonner maintenant",
+    "reset-at-any-time": "* Résiliable à tout moment, votre abonnement prendra fin à la prochaine date de renouvellement."
+  },
+  "subscription": {
+    "title": "Abonnement RK Game Pass",
+    "access-to-many-games": "Accès illimité à plus de 200 jeux",
+    "select-plan": "Sélectionner un plan",
+    "learn-more": "En savoir plus",
+    "secure-payments": "Paiement sécurisé avec Stripe ou PayPal",
+    "access-immediately": "Accès instantané après paiement",
+    "access-to-future-games": "Accès à tous les futurs nouveau jeux",
+    "subscription-details": "Détails de l'abonnement",
+    "game-list": "Liste des jeux"
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "other-questions": "Vous avez d'autres questions?",
+    "contact-us": "Contactez-nous par e-mail ou rejoignez notre communauté active sur Discord pour discuter, partager et obtenir une assistance plus rapide !",
+    "contact-us-link": "Nous contacter",
+    "discord-link": "Rejoindre le Discord"
+  },
+  "faq-set-ubisoft-offline": {
+    "title": "Comment passer Ubisoft en mode hors ligne ?",
+    "description": "Voici comment passer Ubisoft Connect en mode hors ligne en bloquant sa connexion dans le pare-feu Windows.",
+    "video-guide": "Guide vidéo complet d'installation :",
+    "method-1": {
+      "title": "Méthode 1 : Utiliser Ubisoft Offline Locker (Facile et Rapide)",
+      "one-click": "Blocage/déblocage en un clic pour Ubisoft Connect dans le pare-feu Windows.",
+      "save-settings": "Sauvegarde vos paramètres pour un accès rapide.",
+      "no-manual": "Aucune configuration manuelle nécessaire.",
+      "download-tool": "Télécharger l'outil",
+      "download-here": "UbisoftOfflineLocker ici",
+      "open-source": "Open-source ! Consultez le code sur"
+    },
+    "method-2": {
+      "title": "Méthode 2 : Bloquer manuellement via le pare-feu Windows (aucun logiciel nécessaire)",
+      "description": "Si vous préférez une configuration manuelle, suivez ce tutoriel étape par étape pour bloquer \"UplayWebCore.exe\" directement dans les paramètres de votre pare-feu."
+    },
+    "method-3": {
+      "title": "Méthode 3 : Débrancher",
+      "description": "La méthode la plus simple est de débrancher votre câble Internet ou de désactiver le Wi-Fi pour être hors ligne."
+    }
+  },
+  "my-games-error-modal": {
+    "locked": {
+      "title": "Accès temporairement bloqué",
+      "description": "Pour la sécurité de nos comptes, votre accès a été temporairement bloqué suite à un trop grand nombre de demandes.",
+      "information": "Pour des raisons de sécurité, vous devez attendre avant de pouvoir demander à nouveau des identifiants.",
+      "unlock-date": "Déblocage prévu le:"
+    },
+    "error": {
+      "title": "Accès bloqué",
+      "description": "Il s'emblerai qu'une erreur ce soit produite lors de la validation de votre licence.",
+      "licence-status": "Status de la licence:"
+    },
+    "close": "Fermer"
+  }
+}

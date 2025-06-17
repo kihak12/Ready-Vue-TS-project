@@ -1,13 +1,14 @@
-# build stage
-FROM node:lts-alpine as build-stage
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-RUN npm run build
+# Étape de production
 
-# production stage
-FROM nginx:stable-alpine as production-stage
-COPY --from=build-stage /app/dist /usr/share/nginx/html
+FROM nginx:alpine
+# Définir le répertoire de travail
+WORKDIR /app
+
+# Copier le dossier de build vers le dossier NGINX pour servir les fichiers statiques
+COPY /dist /usr/share/nginx/html
+
+# Exposer le port 80
 EXPOSE 80
+
+# Commande par défaut
 CMD ["nginx", "-g", "daemon off;"]
