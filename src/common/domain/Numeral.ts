@@ -11,7 +11,7 @@ const integerToHuman = (integer: string): string =>
         .reverse()
         .join('')
         .match(NUMBER_GROUP_FORMAT)!
-        .map(sub => sub.split('').reverse().join(''))
+        .map((sub) => sub.split('').reverse().join(''))
         .reverse()
         .join(' ');
 

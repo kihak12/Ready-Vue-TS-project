@@ -22,7 +22,7 @@ export class Time {
   private constructor(pattern: string) {
     assertFormat(pattern);
 
-    [this.hours, this.minutes, this.seconds] = pattern.split(':').map(number => parseInt(number, 10));
+    [this.hours, this.minutes, this.seconds] = pattern.split(':').map((number) => parseInt(number, 10));
 
     this.assertValidity();
   }
@@ -79,6 +79,6 @@ export class Time {
   }
 
   private toHumanOrMachine() {
-    return [this.toHumanHours(), this.toHumanMinutes(), this.toHumanSeconds()].filter(timeUnit => timeUnit !== '').join(':');
+    return [this.toHumanHours(), this.toHumanMinutes(), this.toHumanSeconds()].filter((timeUnit) => timeUnit !== '').join(':');
   }
 }
