@@ -19,7 +19,7 @@ export default class AppComponent extends Vue {
   created() {
     this.lenis().on('scroll', ScrollTrigger.update);
 
-    gsap.ticker.add((time) => {
+    gsap.ticker.add(time => {
       this.lenis().raf(time * 1000);
     });
 
