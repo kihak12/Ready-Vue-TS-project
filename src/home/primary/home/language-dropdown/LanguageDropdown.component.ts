@@ -1,8 +1,9 @@
 import { Component, Vue } from 'vue-facing-decorator';
-import i18n from '@/i18n';
-import { useI18nStore } from '@/stores/I18nStore';
+
 import enFlag from '@/assets/en.svg';
 import frFlag from '@/assets/fr.svg';
+import i18n from '@/i18n';
+import { useI18nStore } from '@/stores/I18nStore';
 
 interface LanguageOption {
   code: 'en' | 'fr';
