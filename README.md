@@ -70,7 +70,7 @@ src/
 ### UX & UI
 
 - **[GSAP](https://greensock.com/gsap/)** : Animations complexes.
-- **[Lenis](https://github.com/studio-freight/lenis)** : Smooth scrolling.
+- **[Lenis](https://lenis.darkroom.engineering/)** : Smooth scrolling.
 - **[Sweetalert2](https://sweetalert2.github.io/)** : Smart Modal integration.
 - **[Vue I18n](https://kazupon.github.io/vue-i18n/)** : Internationalisation (FR/EN configuré).
 
